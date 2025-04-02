@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.choices {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.choices button {
+    width: 100px;
+    cursor: pointer;
+    transition: transform .2s;
+}
+.choices button:hover {
+    transform: scale(1.1);
+}
+
+.results {
+    margin-top: 30px;
+}
+
+#player_choice, #computer_choice {
+    font-size: 1.2rem;
+}
+
+#winner {
+    margin-top: 20px;
+    font-size: 2rem;
+    color: #00facc;
+}
+
+#rock, #paper, #scissors {
+    font-size: 70px;
+    border: none;
+}
